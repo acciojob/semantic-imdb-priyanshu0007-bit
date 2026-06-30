@@ -3,97 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interstellar Movie Page</title>
+    <title>Favorite Movie</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            background-color: #0b0c10;
-            color: #ffffff;
+            background-color: #f4f4f4;
+            margin: 20px;
+            line-height: 1.6;
         }
-        header, footer {
-            background-color: #1f2833;
+
+        header, nav, summary, section, aside, footer {
+            display: block;
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 8px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        header {
             text-align: center;
-            padding: 20px;
+            background-color: #222;
+            color: white;
         }
-        nav {
-            background-color: #45a29e;
-            padding: 10px;
-            text-align: center;
-        }
+
         nav a {
-            color: #0b0c10;
-            margin: 0 15px;
+            margin-right: 20px;
             text-decoration: none;
+            color: blue;
             font-weight: bold;
         }
-        section, aside {
-            padding: 20px;
-            margin: 10px;
-            background-color: #1f2833;
-            border-radius: 8px;
-        }
-        h2 {
-            color: #66fcf1;
+
+        footer {
+            text-align: center;
+            background-color: #222;
+            color: white;
         }
     </style>
 </head>
 <body>
-
-    <!-- Header -->
     <header>
         <h1>Interstellar</h1>
-        <p>A Science Fiction Masterpiece</p>
     </header>
-
-    <!-- Navigation -->
     <nav>
         <a id="nav-actor" href="#actor">Actors</a>
         <a id="nav-quote" href="#quote">Quotes</a>
-        <p>Explore details about the cast and famous dialogues.</p>
     </nav>
-
-    <!-- Summary -->
-    <section>
-        <h2>Summary</h2>
-        <p>
-            Interstellar is a science fiction film directed by Christopher Nolan. 
-            It follows a group of astronauts who travel through a wormhole in search 
-            of a new home for humanity as Earth becomes uninhabitable. The story 
-            explores themes of love, time, sacrifice, and survival across space and dimensions.
-        </p>
-    </section>
-
-    <!-- Actors Section -->
+    <summary>
+        Interstellar is a science fiction movie directed by Christopher Nolan. It follows a group of astronauts who travel through a wormhole in search of a new home for humanity as Earth becomes uninhabitable.
+	</summary>
     <section id="actor">
         <h2>Actors</h2>
         <p>
-            The film stars Matthew McConaughey as Cooper, Anne Hathaway as Brand, 
-            Jessica Chastain as Murph, and Michael Caine as Professor Brand. 
-            Their performances bring emotional depth to this visually stunning film.
+            Matthew McConaughey, Anne Hathaway, Jessica Chastain,
+            Michael Caine, and Matt Damon delivered outstanding performances.
         </p>
     </section>
-
-    <!-- Quote Section -->
     <section id="quote">
         <h2>Favorite Quote</h2>
-        <p>
-            "Love is the one thing that transcends time and space."
-        </p>
+        <p>"Love is the one thing that transcends time and space."</p>
     </section>
-
-    <!-- Aside -->
     <aside>
-        <h2>Movie Info</h2>
-        <p>
-            IMDb Rating: 8.7/10 <br>
-            Release Date: November 7, 2014
-        </p>
+        IMDb Rating: 8.7/10 <br>
+        Release Date: November 7, 2014
     </aside>
-
-    <!-- Footer -->
     <footer>
-        <p>Produced by: Emma Thomas, Christopher Nolan, Lynda Obst</p>
+        Produced by: Emma Thomas, Christopher Nolan, Lynda Obst
     </footer>
 
 </body>
